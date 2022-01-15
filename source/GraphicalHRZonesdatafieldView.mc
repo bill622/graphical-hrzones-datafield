@@ -38,8 +38,6 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
             View.setLayout(Rez.Layouts.MainLayout(dc));
             var labelView = View.findDrawableById("label");
             labelView.locY = labelView.locY - 16;
-            var valueView = View.findDrawableById("value");
-            valueView.locY = valueView.locY + 7;
         }
 
         (View.findDrawableById("label") as Text).setText(Rez.Strings.label);
@@ -67,7 +65,7 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
         (View.findDrawableById("Background") as Text).setColor(getBackgroundColor());
 
         // Set the foreground color and value
-        var value = View.findDrawableById("value") as Text;
+        var value = View.findDrawableById("label") as Text;
         if (getBackgroundColor() == Graphics.COLOR_BLACK) {
             value.setColor(Graphics.COLOR_WHITE);
         } else {

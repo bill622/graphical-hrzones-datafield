@@ -14,7 +14,6 @@
             "Monkey C: Edit Products" - Lets you add or remove any product
         -->
         <iq:products>
-            <iq:product id="fenix3"/>
             <iq:product id="fenix3_hr"/>
         </iq:products>
         <!--
@@ -22,7 +21,6 @@
             palette to update permissions.
         -->
         <iq:permissions>
-            <iq:uses-permission id="DataFieldAlert"/>
             <iq:uses-permission id="UserProfile"/>
         </iq:permissions>
         <!--
@@ -31,7 +29,6 @@
         -->
         <iq:languages>
             <iq:language>eng</iq:language>
-            <iq:language>fre</iq:language>
         </iq:languages>
         <!--
             Use "Monkey C: Configure Monkey Barrel" from the Visual Studio Code
