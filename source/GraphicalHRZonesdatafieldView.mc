@@ -10,6 +10,8 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
     hidden var currentHr as Numeric;
     hidden var hrZones as Array;
     hidden var restingHr as Numeric;
+    hidden var indicatorX as Numeric;
+    hidden var indicatorY as Numeric;
 
     function initialize() {
         DataField.initialize();
@@ -22,7 +24,7 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
         SCREEN_SIZE = System.getDeviceSettings().screenWidth;
     }
 
-        // Set your layout here. Anytime the size of obscurity of
+    // Set your layout here. Anytime the size of obscurity of
     // the draw context is changed this will be called.
     function onLayout(dc as Dc) as Void {
         var obscurityFlags = DataField.getObscurityFlags();
@@ -30,22 +32,48 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
         // Top left quadrant so we'll use the top left layout
         if (obscurityFlags == (OBSCURE_TOP | OBSCURE_LEFT)) {
             View.setLayout(Rez.Layouts.TopLeftLayout(dc));
-
+            indicatorX = 50;
+            indicatorY = 42;
         // Top right quadrant so we'll use the top right layout
         } else if (obscurityFlags == (OBSCURE_TOP | OBSCURE_RIGHT)) {
             View.setLayout(Rez.Layouts.TopRightLayout(dc));
-
+            indicatorX = 50;
+            indicatorY = 42;
         // Bottom left quadrant so we'll use the bottom left layout
         } else if (obscurityFlags == (OBSCURE_BOTTOM | OBSCURE_LEFT)) {
             View.setLayout(Rez.Layouts.BottomLeftLayout(dc));
-
+            indicatorX = 50;
+            indicatorY = 27;
         // Bottom right quadrant so we'll use the bottom right layout
         } else if (obscurityFlags == (OBSCURE_BOTTOM | OBSCURE_RIGHT)) {
             View.setLayout(Rez.Layouts.BottomRightLayout(dc));
-
-        // Use the generic, centered layout
+            indicatorX = 50;
+            indicatorY = 27;
+        // 2 fields layout - TOP
+        } else if (obscurityFlags == ( OBSCURE_LEFT | OBSCURE_RIGHT | OBSCURE_TOP )) {
+            indicatorX = 50;
+            indicatorY = 27;
+        // 2 fields layout - BOTTOM
+        } else if (obscurityFlags == ( OBSCURE_LEFT | OBSCURE_RIGHT | OBSCURE_BOTTOM )) {
+            indicatorX = 50;
+            indicatorY = 27;
+        // 3 rows fields layout - MIDDLE
+        } else if (obscurityFlags == ( OBSCURE_LEFT | OBSCURE_RIGHT )) {
+            indicatorX = 50;
+            indicatorY = 27;
+        // 4 fields in 3 rows layout - MIDDLE LEFT
+        } else if (obscurityFlags == ( OBSCURE_LEFT )) {
+            indicatorX = 50;
+            indicatorY = 27;
+        // 4 fields in 3 rows layout - MIDDLE RIGHT
+        } else if (obscurityFlags == ( OBSCURE_RIGHT )) {
+            indicatorX = 50;
+            indicatorY = 27;
+        // 1 field full screen
         } else {
             View.setLayout(Rez.Layouts.MainLayout(dc));
+            indicatorX = ( SCREEN_SIZE / 2) - 50;
+            indicatorY = ( SCREEN_SIZE / 2) - 18;
         }
 
     }
@@ -94,10 +122,10 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc); 
 
-        drawIndicator( dc, indicator );      
+        drawIndicator( dc, indicator, indicatorX, indicatorY );
     }
 
-    function drawIndicator( dc, indicator ) {
+    function drawIndicator( dc, indicator, blockX, blockY ) {
         var block1Color = Graphics.COLOR_TRANSPARENT;
         var block2Color = Graphics.COLOR_TRANSPARENT;
         var block3Color = Graphics.COLOR_TRANSPARENT;
@@ -109,11 +137,11 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
             } else if( indicator[1] == 2 ){
                 block1Color = Graphics.COLOR_LT_GRAY;
                 block2Color = Graphics.COLOR_LT_GRAY;
-            } else if( indicator[1] == 2 ){
+            } else if( indicator[1] == 3 ){
                 block1Color = Graphics.COLOR_LT_GRAY;
                 block2Color = Graphics.COLOR_LT_GRAY;
                 block3Color = Graphics.COLOR_LT_GRAY;
-            } else if( indicator[1] == 2 ){
+            } else if( indicator[1] == 4 ){
                 block1Color = Graphics.COLOR_LT_GRAY;
                 block2Color = Graphics.COLOR_LT_GRAY;
                 block3Color = Graphics.COLOR_LT_GRAY;
@@ -125,11 +153,11 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
             } else if( indicator[1] == 2 ){
                 block1Color = Graphics.COLOR_BLUE;
                 block2Color = Graphics.COLOR_BLUE;
-            } else if( indicator[1] == 2 ){
+            } else if( indicator[1] == 3 ){
                 block1Color = Graphics.COLOR_BLUE;
                 block2Color = Graphics.COLOR_BLUE;
                 block3Color = Graphics.COLOR_BLUE;
-            } else if( indicator[1] == 2 ){
+            } else if( indicator[1] == 4 ){
                 block1Color = Graphics.COLOR_BLUE;
                 block2Color = Graphics.COLOR_BLUE;
                 block3Color = Graphics.COLOR_BLUE;
@@ -141,11 +169,11 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
             } else if( indicator[1] == 2 ){
                 block1Color = Graphics.COLOR_GREEN;
                 block2Color = Graphics.COLOR_GREEN;
-            } else if( indicator[1] == 2 ){
+            } else if( indicator[1] == 3 ){
                 block1Color = Graphics.COLOR_GREEN;
                 block2Color = Graphics.COLOR_GREEN;
                 block3Color = Graphics.COLOR_GREEN;
-            } else if( indicator[1] == 2 ){
+            } else if( indicator[1] == 4 ){
                 block1Color = Graphics.COLOR_GREEN;
                 block2Color = Graphics.COLOR_GREEN;
                 block3Color = Graphics.COLOR_GREEN;
@@ -157,11 +185,11 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
             } else if( indicator[1] == 2 ){
                 block1Color = Graphics.COLOR_ORANGE;
                 block2Color = Graphics.COLOR_ORANGE;
-            } else if( indicator[1] == 2 ){
+            } else if( indicator[1] == 3 ){
                 block1Color = Graphics.COLOR_ORANGE;
                 block2Color = Graphics.COLOR_ORANGE;
                 block3Color = Graphics.COLOR_ORANGE;
-            } else if( indicator[1] == 2 ){
+            } else if( indicator[1] == 4 ){
                 block1Color = Graphics.COLOR_ORANGE;
                 block2Color = Graphics.COLOR_ORANGE;
                 block3Color = Graphics.COLOR_ORANGE;
@@ -173,11 +201,11 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
             } else if( indicator[1] == 2 ){
                 block1Color = Graphics.COLOR_RED;
                 block2Color = Graphics.COLOR_RED;
-            } else if( indicator[1] == 2 ){
+            } else if( indicator[1] == 3 ){
                 block1Color = Graphics.COLOR_RED;
                 block2Color = Graphics.COLOR_RED;
                 block3Color = Graphics.COLOR_RED;
-            } else if( indicator[1] == 2 ){
+            } else if( indicator[1] == 4 ){
                 block1Color = Graphics.COLOR_RED;
                 block2Color = Graphics.COLOR_RED;
                 block3Color = Graphics.COLOR_RED;
@@ -186,13 +214,16 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
         }
 
         dc.setColor( block1Color, block1Color );
-        dc.fillRectangle( 60, 60, 10, 10 );
-        dc.setColor( block2Color, block1Color );
-        dc.fillRectangle( 72, 60, 10, 10 );
-        dc.setColor( block3Color, block1Color );
-        dc.fillRectangle( 60, 48, 10, 10 );
-        dc.setColor( block4Color, block1Color );
-        dc.fillRectangle( 72, 48, 10, 10 );
+        dc.fillRectangle( blockX, blockY + 20, 17, 17 );
+
+        dc.setColor( block2Color, block2Color );
+        dc.fillRectangle( blockX + 20, blockY + 20, 17, 17 );
+
+        dc.setColor( block3Color, block3Color );
+        dc.fillRectangle( blockX, blockY, 17, 17 );
+
+        dc.setColor( block4Color, block4Color );
+        dc.fillRectangle( blockX + 20, blockY, 17, 17 );
     }
 
     function getIndicator() {
