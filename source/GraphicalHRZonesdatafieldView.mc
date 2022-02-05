@@ -6,20 +6,23 @@ using Toybox.UserProfile;
 
 class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
 
-    hidden var mCurrentHr as Numeric;
+    hidden var SCREEN_SIZE = 218;       // Originaly made for Fenix3
+    hidden var currentHr as Numeric;
     hidden var hrZones as Array;
     hidden var restingHr as Numeric;
 
     function initialize() {
         DataField.initialize();
-        mCurrentHr = 0.0f;
+        currentHr = 0.0f;
         var profile = UserProfile.getProfile();
         var sport = UserProfile.getCurrentSport();
         hrZones = UserProfile.getHeartRateZones(sport);
         restingHr = profile.restingHeartRate;
+
+        SCREEN_SIZE = System.getDeviceSettings().screenWidth;
     }
 
-    // Set your layout here. Anytime the size of obscurity of
+        // Set your layout here. Anytime the size of obscurity of
     // the draw context is changed this will be called.
     function onLayout(dc as Dc) as Void {
         var obscurityFlags = DataField.getObscurityFlags();
@@ -43,11 +46,8 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
         // Use the generic, centered layout
         } else {
             View.setLayout(Rez.Layouts.MainLayout(dc));
-            var labelView = View.findDrawableById("label");
-            labelView.locY = labelView.locY - 16;
         }
 
-        (View.findDrawableById("label") as Text).setText(Rez.Strings.label);
     }
 
     // The given info object contains all the current workout information.
@@ -58,9 +58,9 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
         // See Activity.Info in the documentation for available information.
         if(info has :currentHeartRate){
             if(info.currentHeartRate != null){
-                mCurrentHr = info.currentHeartRate as Number;
+                currentHr = info.currentHeartRate as Number;
             } else {
-                mCurrentHr = 0;
+                currentHr = 0;
             }
         }
     }
@@ -70,41 +70,150 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
     function onUpdate(dc as Dc) as Void {
         // Set the background color
         (View.findDrawableById("Background") as Text).setColor(getBackgroundColor());
-
+        var indicator = getIndicator();
+        var percentMaxHr = getPercentMaxHr();
+        
         // Set the foreground color and value
-        /*var value = View.findDrawableById("label") as Text;
-        if (getBackgroundColor() == Graphics.COLOR_BLACK) {
-            value.setColor(Graphics.COLOR_WHITE);
+        var hrPercentText = View.findDrawableById("hrPercent") as Text;
+        hrPercentText.setColor( getBackgroundColor() );
+        // HR Percent color
+        if( percentMaxHr < 15 ) {
+            hrPercentText.setBackgroundColor( getBackgroundColor() );
+            hrPercentText.setColor( Graphics.COLOR_LT_GRAY );
+            hrPercentText.setText( "--" );
         } else {
-            value.setColor(Graphics.COLOR_BLACK);
-        }*/
-        var indicator = getIndicator();                
-        value.setText( "" );
-        //value.setText( mCurrentHr.toString() + " " + indicator[0].toString() + " " + indicator[1].toString() );
-
+            if( percentMaxHr < 80 ) {
+                hrPercentText.setBackgroundColor(Graphics.COLOR_GREEN);
+            } else if( percentMaxHr >= 80 && percentMaxHr < 87 ){
+                hrPercentText.setBackgroundColor(Graphics.COLOR_ORANGE);
+            } else {
+                hrPercentText.setBackgroundColor(Graphics.COLOR_RED);
+            }
+            hrPercentText.setText( percentMaxHr.format( "%.0f") + " %" );
+        }
         // Call parent's onUpdate(dc) to redraw the layout
-        View.onUpdate(dc);
+        View.onUpdate(dc); 
+
+        drawIndicator( dc, indicator );      
+    }
+
+    function drawIndicator( dc, indicator ) {
+        var block1Color = Graphics.COLOR_TRANSPARENT;
+        var block2Color = Graphics.COLOR_TRANSPARENT;
+        var block3Color = Graphics.COLOR_TRANSPARENT;
+        var block4Color = Graphics.COLOR_TRANSPARENT;
+        
+        if ( indicator[0] == 1 ) {
+            if( indicator[1] == 1 ){
+                block1Color = Graphics.COLOR_LT_GRAY;
+            } else if( indicator[1] == 2 ){
+                block1Color = Graphics.COLOR_LT_GRAY;
+                block2Color = Graphics.COLOR_LT_GRAY;
+            } else if( indicator[1] == 2 ){
+                block1Color = Graphics.COLOR_LT_GRAY;
+                block2Color = Graphics.COLOR_LT_GRAY;
+                block3Color = Graphics.COLOR_LT_GRAY;
+            } else if( indicator[1] == 2 ){
+                block1Color = Graphics.COLOR_LT_GRAY;
+                block2Color = Graphics.COLOR_LT_GRAY;
+                block3Color = Graphics.COLOR_LT_GRAY;
+                block4Color = Graphics.COLOR_LT_GRAY;
+            }
+        } else if ( indicator[0] == 2 ) {
+            if( indicator[1] == 1 ){
+                block1Color = Graphics.COLOR_BLUE;
+            } else if( indicator[1] == 2 ){
+                block1Color = Graphics.COLOR_BLUE;
+                block2Color = Graphics.COLOR_BLUE;
+            } else if( indicator[1] == 2 ){
+                block1Color = Graphics.COLOR_BLUE;
+                block2Color = Graphics.COLOR_BLUE;
+                block3Color = Graphics.COLOR_BLUE;
+            } else if( indicator[1] == 2 ){
+                block1Color = Graphics.COLOR_BLUE;
+                block2Color = Graphics.COLOR_BLUE;
+                block3Color = Graphics.COLOR_BLUE;
+                block4Color = Graphics.COLOR_BLUE;
+            }
+        } else if ( indicator[0] == 3 ) {
+            if( indicator[1] == 1 ){
+                block1Color = Graphics.COLOR_GREEN;
+            } else if( indicator[1] == 2 ){
+                block1Color = Graphics.COLOR_GREEN;
+                block2Color = Graphics.COLOR_GREEN;
+            } else if( indicator[1] == 2 ){
+                block1Color = Graphics.COLOR_GREEN;
+                block2Color = Graphics.COLOR_GREEN;
+                block3Color = Graphics.COLOR_GREEN;
+            } else if( indicator[1] == 2 ){
+                block1Color = Graphics.COLOR_GREEN;
+                block2Color = Graphics.COLOR_GREEN;
+                block3Color = Graphics.COLOR_GREEN;
+                block4Color = Graphics.COLOR_GREEN;
+            }
+        } else if ( indicator[0] == 4 ) {
+            if( indicator[1] == 1 ){
+                block1Color = Graphics.COLOR_ORANGE;
+            } else if( indicator[1] == 2 ){
+                block1Color = Graphics.COLOR_ORANGE;
+                block2Color = Graphics.COLOR_ORANGE;
+            } else if( indicator[1] == 2 ){
+                block1Color = Graphics.COLOR_ORANGE;
+                block2Color = Graphics.COLOR_ORANGE;
+                block3Color = Graphics.COLOR_ORANGE;
+            } else if( indicator[1] == 2 ){
+                block1Color = Graphics.COLOR_ORANGE;
+                block2Color = Graphics.COLOR_ORANGE;
+                block3Color = Graphics.COLOR_ORANGE;
+                block4Color = Graphics.COLOR_ORANGE;
+            }
+        } else if ( indicator[0] == 5 ) {
+            if( indicator[1] == 1 ){
+                block1Color = Graphics.COLOR_RED;
+            } else if( indicator[1] == 2 ){
+                block1Color = Graphics.COLOR_RED;
+                block2Color = Graphics.COLOR_RED;
+            } else if( indicator[1] == 2 ){
+                block1Color = Graphics.COLOR_RED;
+                block2Color = Graphics.COLOR_RED;
+                block3Color = Graphics.COLOR_RED;
+            } else if( indicator[1] == 2 ){
+                block1Color = Graphics.COLOR_RED;
+                block2Color = Graphics.COLOR_RED;
+                block3Color = Graphics.COLOR_RED;
+                block4Color = Graphics.COLOR_RED;
+            }
+        }
+
+        dc.setColor( block1Color, block1Color );
+        dc.fillRectangle( 60, 60, 10, 10 );
+        dc.setColor( block2Color, block1Color );
+        dc.fillRectangle( 72, 60, 10, 10 );
+        dc.setColor( block3Color, block1Color );
+        dc.fillRectangle( 60, 48, 10, 10 );
+        dc.setColor( block4Color, block1Color );
+        dc.fillRectangle( 72, 48, 10, 10 );
     }
 
     function getIndicator() {
         var output = [0, 0];
-        if( mCurrentHr < hrZones[0]){
+        if( currentHr < hrZones[0]){
             //Zone lazy
             output[0] = 0;
             output[1] = getSubdivisions( restingHr, hrZones[0]);
-        } else if( mCurrentHr >= hrZones[0] && mCurrentHr < hrZones[1] ) {
+        } else if( currentHr >= hrZones[0] && currentHr < hrZones[1] ) {
             //Zone 1
             output[0] = 1;
             output[1] = getSubdivisions( hrZones[0], hrZones[1]);
-        } else if( mCurrentHr >= hrZones[1] && mCurrentHr < hrZones[2] ) {
+        } else if( currentHr >= hrZones[1] && currentHr < hrZones[2] ) {
             //Zone 2
             output[0] = 2;
             output[1] = getSubdivisions( hrZones[1], hrZones[2]);
-        } else if( mCurrentHr >= hrZones[2] && mCurrentHr < hrZones[3] ) {
+        } else if( currentHr >= hrZones[2] && currentHr < hrZones[3] ) {
             //Zone 3
             output[0] = 3;
             output[1] = getSubdivisions( hrZones[2], hrZones[3]);
-        } else if( mCurrentHr >= hrZones[3] && mCurrentHr < hrZones[4] ) {
+        } else if( currentHr >= hrZones[3] && currentHr < hrZones[4] ) {
             //Zone 4
             output[0] = 4;
             output[1] = getSubdivisions( hrZones[3], hrZones[4]);
@@ -123,20 +232,22 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
         var step2 = hrZoneMin + ( hrZoneDiff * 0.50 );
         var step3 = hrZoneMin + ( hrZoneDiff * 0.75 );
         var step4 = hrZoneMax;
-        if( mCurrentHr < hrZoneMin ) {
+        if( currentHr < hrZoneMin ) {
             return 0;
-        } else if( mCurrentHr >= hrZoneMin && mCurrentHr < step1 ) {
+        } else if( currentHr >= hrZoneMin && currentHr < step1 ) {
             return 1;
-        } else if( mCurrentHr >= step1 && mCurrentHr < step2 ) {
+        } else if( currentHr >= step1 && currentHr < step2 ) {
             return 2;
-        } else if( mCurrentHr >= step2 && mCurrentHr < step3 ) {
+        } else if( currentHr >= step2 && currentHr < step3 ) {
             return 3;
-        } else if( mCurrentHr >= step3 && mCurrentHr < step4 ) {
+        } else if( currentHr >= step3 && currentHr < step4 ) {
             return 4;
         } else {
-            return 5;
+            return 0;
         }
     }
 
-
+    function getPercentMaxHr() {
+        return 100 * ( currentHr.toFloat() / hrZones[5].toFloat() );
+    }
 }
