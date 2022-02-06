@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="C:\Users\bill622\GarminIQ\graphical-hrzones-datafield\manifest.xml"/>
+<pcToLineNum>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldApp.mc" id="1" lineNum="7" parent="globals/GraphicalHRZonesdatafieldApp" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldApp.mc" id="1" lineNum="8" parent="globals/GraphicalHRZonesdatafieldApp" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldApp.mc" id="2" lineNum="12" parent="globals/GraphicalHRZonesdatafieldApp" pc="268435479" symbol="onStart"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldApp.mc" id="3" lineNum="16" parent="globals/GraphicalHRZonesdatafieldApp" pc="268435484" symbol="onStop"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldApp.mc" id="4" lineNum="20" parent="globals/GraphicalHRZonesdatafieldApp" pc="268435489" symbol="getInitialView"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldApp.mc" id="4" lineNum="21" parent="globals/GraphicalHRZonesdatafieldApp" pc="268435493" symbol="getInitialView"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldApp.mc" id="5" lineNum="5" parent="globals/GraphicalHRZonesdatafieldApp" pc="268439928" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldApp.mc" id="5" lineNum="5" parent="globals/GraphicalHRZonesdatafieldApp" pc="268439928" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldApp.mc" id="6" lineNum="26" parent="globals" pc="268435531" symbol="getApp"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldApp.mc" id="6" lineNum="27" parent="globals" pc="268435543" symbol="getApp"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldBackground.mc" id="8" lineNum="9" parent="globals/Background" pc="268435560" symbol="initialize"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldBackground.mc" id="8" lineNum="10" parent="globals/Background" pc="268435564" symbol="initialize"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldBackground.mc" id="8" lineNum="14" parent="globals/Background" pc="268435585" symbol="initialize"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldBackground.mc" id="8" lineNum="16" parent="globals/Background" pc="268435605" symbol="initialize"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldBackground.mc" id="9" lineNum="19" parent="globals/Background" pc="268435626" symbol="setColor"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldBackground.mc" id="9" lineNum="20" parent="globals/Background" pc="268435630" symbol="setColor"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldBackground.mc" id="10" lineNum="23" parent="globals/Background" pc="268435641" symbol="draw"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldBackground.mc" id="10" lineNum="24" parent="globals/Background" pc="268435645" symbol="draw"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldBackground.mc" id="10" lineNum="25" parent="globals/Background" pc="268435677" symbol="draw"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldBackground.mc" id="11" lineNum="5" parent="globals/Background" pc="268439884" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldBackground.mc" id="11" lineNum="5" parent="globals/Background" pc="268439884" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="13" lineNum="16" parent="globals/GraphicalHRZonesdatafieldView" pc="268435690" symbol="initialize"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="13" lineNum="17" parent="globals/GraphicalHRZonesdatafieldView" pc="268435694" symbol="initialize"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="13" lineNum="18" parent="globals/GraphicalHRZonesdatafieldView" pc="268435712" symbol="initialize"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="13" lineNum="19" parent="globals/GraphicalHRZonesdatafieldView" pc="268435725" symbol="initialize"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="13" lineNum="20" parent="globals/GraphicalHRZonesdatafieldView" pc="268435742" symbol="initialize"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="13" lineNum="21" parent="globals/GraphicalHRZonesdatafieldView" pc="268435759" symbol="initialize"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="13" lineNum="22" parent="globals/GraphicalHRZonesdatafieldView" pc="268435784" symbol="initialize"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="13" lineNum="24" parent="globals/GraphicalHRZonesdatafieldView" pc="268435800" symbol="initialize"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="29" parent="globals/GraphicalHRZonesdatafieldView" pc="268435832" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="30" parent="globals/GraphicalHRZonesdatafieldView" pc="268435836" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="33" parent="globals/GraphicalHRZonesdatafieldView" pc="268435855" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="34" parent="globals/GraphicalHRZonesdatafieldView" pc="268435878" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="35" parent="globals/GraphicalHRZonesdatafieldView" pc="268435906" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="37" parent="globals/GraphicalHRZonesdatafieldView" pc="268435937" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="38" parent="globals/GraphicalHRZonesdatafieldView" pc="268435960" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="39" parent="globals/GraphicalHRZonesdatafieldView" pc="268435988" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="41" parent="globals/GraphicalHRZonesdatafieldView" pc="268436019" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="42" parent="globals/GraphicalHRZonesdatafieldView" pc="268436042" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="43" parent="globals/GraphicalHRZonesdatafieldView" pc="268436070" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="45" parent="globals/GraphicalHRZonesdatafieldView" pc="268436086" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="46" parent="globals/GraphicalHRZonesdatafieldView" pc="268436109" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="47" parent="globals/GraphicalHRZonesdatafieldView" pc="268436137" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="49" parent="globals/GraphicalHRZonesdatafieldView" pc="268436153" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="50" parent="globals/GraphicalHRZonesdatafieldView" pc="268436185" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="51" parent="globals/GraphicalHRZonesdatafieldView" pc="268436213" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="53" parent="globals/GraphicalHRZonesdatafieldView" pc="268436244" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="54" parent="globals/GraphicalHRZonesdatafieldView" pc="268436276" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="55" parent="globals/GraphicalHRZonesdatafieldView" pc="268436304" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="57" parent="globals/GraphicalHRZonesdatafieldView" pc="268436335" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="58" parent="globals/GraphicalHRZonesdatafieldView" pc="268436358" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="59" parent="globals/GraphicalHRZonesdatafieldView" pc="268436386" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="61" parent="globals/GraphicalHRZonesdatafieldView" pc="268436417" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="62" parent="globals/GraphicalHRZonesdatafieldView" pc="268436431" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="63" parent="globals/GraphicalHRZonesdatafieldView" pc="268436459" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="65" parent="globals/GraphicalHRZonesdatafieldView" pc="268436490" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="66" parent="globals/GraphicalHRZonesdatafieldView" pc="268436504" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="67" parent="globals/GraphicalHRZonesdatafieldView" pc="268436532" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="70" parent="globals/GraphicalHRZonesdatafieldView" pc="268436563" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="14" lineNum="71" parent="globals/GraphicalHRZonesdatafieldView" pc="268436591" symbol="onLayout"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="15" lineNum="79" parent="globals/GraphicalHRZonesdatafieldView" pc="268436620" symbol="compute"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="15" lineNum="81" parent="globals/GraphicalHRZonesdatafieldView" pc="268436624" symbol="compute"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="15" lineNum="82" parent="globals/GraphicalHRZonesdatafieldView" pc="268436635" symbol="compute"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="15" lineNum="83" parent="globals/GraphicalHRZonesdatafieldView" pc="268436648" symbol="compute"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="15" lineNum="85" parent="globals/GraphicalHRZonesdatafieldView" pc="268436667" symbol="compute"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="16" lineNum="92" parent="globals/GraphicalHRZonesdatafieldView" pc="268436684" symbol="onUpdate"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="16" lineNum="94" parent="globals/GraphicalHRZonesdatafieldView" pc="268436688" symbol="onUpdate"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="16" lineNum="95" parent="globals/GraphicalHRZonesdatafieldView" pc="268436701" symbol="onUpdate"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="16" lineNum="99" parent="globals/GraphicalHRZonesdatafieldView" pc="268436714" symbol="onUpdate"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="16" lineNum="100" parent="globals/GraphicalHRZonesdatafieldView" pc="268436748" symbol="onUpdate"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="16" lineNum="101" parent="globals/GraphicalHRZonesdatafieldView" pc="268436760" symbol="onUpdate"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="16" lineNum="102" parent="globals/GraphicalHRZonesdatafieldView" pc="268436792" symbol="onUpdate"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="16" lineNum="103" parent="globals/GraphicalHRZonesdatafieldView" pc="268436824" symbol="onUpdate"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="106" parent="globals/GraphicalHRZonesdatafieldView" pc="268436857" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="107" parent="globals/GraphicalHRZonesdatafieldView" pc="268436861" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="108" parent="globals/GraphicalHRZonesdatafieldView" pc="268436875" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="109" parent="globals/GraphicalHRZonesdatafieldView" pc="268436889" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="110" parent="globals/GraphicalHRZonesdatafieldView" pc="268436903" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="112" parent="globals/GraphicalHRZonesdatafieldView" pc="268436917" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="113" parent="globals/GraphicalHRZonesdatafieldView" pc="268436934" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="114" parent="globals/GraphicalHRZonesdatafieldView" pc="268436951" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="115" parent="globals/GraphicalHRZonesdatafieldView" pc="268436968" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="116" parent="globals/GraphicalHRZonesdatafieldView" pc="268436985" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="117" parent="globals/GraphicalHRZonesdatafieldView" pc="268436999" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="118" parent="globals/GraphicalHRZonesdatafieldView" pc="268437016" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="119" parent="globals/GraphicalHRZonesdatafieldView" pc="268437033" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="120" parent="globals/GraphicalHRZonesdatafieldView" pc="268437047" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="121" parent="globals/GraphicalHRZonesdatafieldView" pc="268437061" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="122" parent="globals/GraphicalHRZonesdatafieldView" pc="268437078" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="123" parent="globals/GraphicalHRZonesdatafieldView" pc="268437095" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="124" parent="globals/GraphicalHRZonesdatafieldView" pc="268437109" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="125" parent="globals/GraphicalHRZonesdatafieldView" pc="268437123" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="126" parent="globals/GraphicalHRZonesdatafieldView" pc="268437137" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="128" parent="globals/GraphicalHRZonesdatafieldView" pc="268437157" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="129" parent="globals/GraphicalHRZonesdatafieldView" pc="268437174" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="130" parent="globals/GraphicalHRZonesdatafieldView" pc="268437191" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="131" parent="globals/GraphicalHRZonesdatafieldView" pc="268437208" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="132" parent="globals/GraphicalHRZonesdatafieldView" pc="268437225" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="133" parent="globals/GraphicalHRZonesdatafieldView" pc="268437239" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="134" parent="globals/GraphicalHRZonesdatafieldView" pc="268437256" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="135" parent="globals/GraphicalHRZonesdatafieldView" pc="268437273" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="136" parent="globals/GraphicalHRZonesdatafieldView" pc="268437287" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="137" parent="globals/GraphicalHRZonesdatafieldView" pc="268437301" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="138" parent="globals/GraphicalHRZonesdatafieldView" pc="268437318" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="139" parent="globals/GraphicalHRZonesdatafieldView" pc="268437335" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="140" parent="globals/GraphicalHRZonesdatafieldView" pc="268437349" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="141" parent="globals/GraphicalHRZonesdatafieldView" pc="268437363" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="142" parent="globals/GraphicalHRZonesdatafieldView" pc="268437377" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="144" parent="globals/GraphicalHRZonesdatafieldView" pc="268437397" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="145" parent="globals/GraphicalHRZonesdatafieldView" pc="268437414" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="146" parent="globals/GraphicalHRZonesdatafieldView" pc="268437431" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="147" parent="globals/GraphicalHRZonesdatafieldView" pc="268437448" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="148" parent="globals/GraphicalHRZonesdatafieldView" pc="268437465" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="149" parent="globals/GraphicalHRZonesdatafieldView" pc="268437479" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="150" parent="globals/GraphicalHRZonesdatafieldView" pc="268437496" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="151" parent="globals/GraphicalHRZonesdatafieldView" pc="268437513" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="152" parent="globals/GraphicalHRZonesdatafieldView" pc="268437527" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="153" parent="globals/GraphicalHRZonesdatafieldView" pc="268437541" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="154" parent="globals/GraphicalHRZonesdatafieldView" pc="268437558" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="155" parent="globals/GraphicalHRZonesdatafieldView" pc="268437575" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="156" parent="globals/GraphicalHRZonesdatafieldView" pc="268437589" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="157" parent="globals/GraphicalHRZonesdatafieldView" pc="268437603" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="158" parent="globals/GraphicalHRZonesdatafieldView" pc="268437617" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="160" parent="globals/GraphicalHRZonesdatafieldView" pc="268437637" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="161" parent="globals/GraphicalHRZonesdatafieldView" pc="268437654" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="162" parent="globals/GraphicalHRZonesdatafieldView" pc="268437671" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="163" parent="globals/GraphicalHRZonesdatafieldView" pc="268437688" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="164" parent="globals/GraphicalHRZonesdatafieldView" pc="268437705" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="165" parent="globals/GraphicalHRZonesdatafieldView" pc="268437719" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="166" parent="globals/GraphicalHRZonesdatafieldView" pc="268437736" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="167" parent="globals/GraphicalHRZonesdatafieldView" pc="268437753" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="168" parent="globals/GraphicalHRZonesdatafieldView" pc="268437767" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="169" parent="globals/GraphicalHRZonesdatafieldView" pc="268437781" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="170" parent="globals/GraphicalHRZonesdatafieldView" pc="268437798" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="171" parent="globals/GraphicalHRZonesdatafieldView" pc="268437815" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="172" parent="globals/GraphicalHRZonesdatafieldView" pc="268437829" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="173" parent="globals/GraphicalHRZonesdatafieldView" pc="268437843" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="174" parent="globals/GraphicalHRZonesdatafieldView" pc="268437857" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="176" parent="globals/GraphicalHRZonesdatafieldView" pc="268437877" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="177" parent="globals/GraphicalHRZonesdatafieldView" pc="268437894" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="178" parent="globals/GraphicalHRZonesdatafieldView" pc="268437911" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="179" parent="globals/GraphicalHRZonesdatafieldView" pc="268437928" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="180" parent="globals/GraphicalHRZonesdatafieldView" pc="268437945" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="181" parent="globals/GraphicalHRZonesdatafieldView" pc="268437959" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="182" parent="globals/GraphicalHRZonesdatafieldView" pc="268437976" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="183" parent="globals/GraphicalHRZonesdatafieldView" pc="268437993" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="184" parent="globals/GraphicalHRZonesdatafieldView" pc="268438007" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="185" parent="globals/GraphicalHRZonesdatafieldView" pc="268438021" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="186" parent="globals/GraphicalHRZonesdatafieldView" pc="268438038" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="187" parent="globals/GraphicalHRZonesdatafieldView" pc="268438055" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="188" parent="globals/GraphicalHRZonesdatafieldView" pc="268438069" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="189" parent="globals/GraphicalHRZonesdatafieldView" pc="268438083" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="190" parent="globals/GraphicalHRZonesdatafieldView" pc="268438097" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="195" parent="globals/GraphicalHRZonesdatafieldView" pc="268438117" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="196" parent="globals/GraphicalHRZonesdatafieldView" pc="268438153" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="197" parent="globals/GraphicalHRZonesdatafieldView" pc="268438179" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="198" parent="globals/GraphicalHRZonesdatafieldView" pc="268438211" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="199" parent="globals/GraphicalHRZonesdatafieldView" pc="268438243" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="202" parent="globals/GraphicalHRZonesdatafieldView" pc="268438275" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="203" parent="globals/GraphicalHRZonesdatafieldView" pc="268438291" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="204" parent="globals/GraphicalHRZonesdatafieldView" pc="268438317" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="205" parent="globals/GraphicalHRZonesdatafieldView" pc="268438333" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="206" parent="globals/GraphicalHRZonesdatafieldView" pc="268438365" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="207" parent="globals/GraphicalHRZonesdatafieldView" pc="268438381" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="208" parent="globals/GraphicalHRZonesdatafieldView" pc="268438413" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="17" lineNum="209" parent="globals/GraphicalHRZonesdatafieldView" pc="268438429" symbol="drawIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="18" lineNum="212" parent="globals/GraphicalHRZonesdatafieldView" pc="268438462" symbol="writeZone"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="18" lineNum="213" parent="globals/GraphicalHRZonesdatafieldView" pc="268438466" symbol="writeZone"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="18" lineNum="214" parent="globals/GraphicalHRZonesdatafieldView" pc="268438473" symbol="writeZone"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="18" lineNum="215" parent="globals/GraphicalHRZonesdatafieldView" pc="268438490" symbol="writeZone"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="18" lineNum="217" parent="globals/GraphicalHRZonesdatafieldView" pc="268438509" symbol="writeZone"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="18" lineNum="218" parent="globals/GraphicalHRZonesdatafieldView" pc="268438536" symbol="writeZone"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="18" lineNum="220" parent="globals/GraphicalHRZonesdatafieldView" pc="268438575" symbol="writeZone"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="18" lineNum="223" parent="globals/GraphicalHRZonesdatafieldView" pc="268438611" symbol="writeZone"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="19" lineNum="231" parent="globals/GraphicalHRZonesdatafieldView" pc="268438660" symbol="writePercent"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="19" lineNum="232" parent="globals/GraphicalHRZonesdatafieldView" pc="268438664" symbol="writePercent"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="19" lineNum="233" parent="globals/GraphicalHRZonesdatafieldView" pc="268438671" symbol="writePercent"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="19" lineNum="234" parent="globals/GraphicalHRZonesdatafieldView" pc="268438678" symbol="writePercent"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="19" lineNum="235" parent="globals/GraphicalHRZonesdatafieldView" pc="268438692" symbol="writePercent"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="19" lineNum="236" parent="globals/GraphicalHRZonesdatafieldView" pc="268438703" symbol="writePercent"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="19" lineNum="238" parent="globals/GraphicalHRZonesdatafieldView" pc="268438730" symbol="writePercent"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="19" lineNum="239" parent="globals/GraphicalHRZonesdatafieldView" pc="268438757" symbol="writePercent"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="19" lineNum="241" parent="globals/GraphicalHRZonesdatafieldView" pc="268438774" symbol="writePercent"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="19" lineNum="242" parent="globals/GraphicalHRZonesdatafieldView" pc="268438785" symbol="writePercent"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="19" lineNum="243" parent="globals/GraphicalHRZonesdatafieldView" pc="268438802" symbol="writePercent"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="19" lineNum="244" parent="globals/GraphicalHRZonesdatafieldView" pc="268438827" symbol="writePercent"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="19" lineNum="246" parent="globals/GraphicalHRZonesdatafieldView" pc="268438844" symbol="writePercent"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="19" lineNum="250" parent="globals/GraphicalHRZonesdatafieldView" pc="268438858" symbol="writePercent"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="19" lineNum="251" parent="globals/GraphicalHRZonesdatafieldView" pc="268438874" symbol="writePercent"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="20" lineNum="259" parent="globals/GraphicalHRZonesdatafieldView" pc="268438929" symbol="getIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="20" lineNum="260" parent="globals/GraphicalHRZonesdatafieldView" pc="268438933" symbol="getIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="20" lineNum="261" parent="globals/GraphicalHRZonesdatafieldView" pc="268438967" symbol="getIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="20" lineNum="263" parent="globals/GraphicalHRZonesdatafieldView" pc="268438993" symbol="getIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="20" lineNum="264" parent="globals/GraphicalHRZonesdatafieldView" pc="268439006" symbol="getIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="20" lineNum="265" parent="globals/GraphicalHRZonesdatafieldView" pc="268439050" symbol="getIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="20" lineNum="267" parent="globals/GraphicalHRZonesdatafieldView" pc="268439105" symbol="getIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="20" lineNum="268" parent="globals/GraphicalHRZonesdatafieldView" pc="268439118" symbol="getIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="20" lineNum="269" parent="globals/GraphicalHRZonesdatafieldView" pc="268439168" symbol="getIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="20" lineNum="271" parent="globals/GraphicalHRZonesdatafieldView" pc="268439223" symbol="getIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="20" lineNum="272" parent="globals/GraphicalHRZonesdatafieldView" pc="268439236" symbol="getIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="20" lineNum="273" parent="globals/GraphicalHRZonesdatafieldView" pc="268439286" symbol="getIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="20" lineNum="275" parent="globals/GraphicalHRZonesdatafieldView" pc="268439341" symbol="getIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="20" lineNum="276" parent="globals/GraphicalHRZonesdatafieldView" pc="268439354" symbol="getIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="20" lineNum="277" parent="globals/GraphicalHRZonesdatafieldView" pc="268439404" symbol="getIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="20" lineNum="279" parent="globals/GraphicalHRZonesdatafieldView" pc="268439459" symbol="getIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="20" lineNum="280" parent="globals/GraphicalHRZonesdatafieldView" pc="268439472" symbol="getIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="20" lineNum="283" parent="globals/GraphicalHRZonesdatafieldView" pc="268439522" symbol="getIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="20" lineNum="284" parent="globals/GraphicalHRZonesdatafieldView" pc="268439535" symbol="getIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="20" lineNum="287" parent="globals/GraphicalHRZonesdatafieldView" pc="268439582" symbol="getIndicator"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="21" lineNum="290" parent="globals/GraphicalHRZonesdatafieldView" pc="268439586" symbol="getSubdivisions"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="21" lineNum="291" parent="globals/GraphicalHRZonesdatafieldView" pc="268439590" symbol="getSubdivisions"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="21" lineNum="292" parent="globals/GraphicalHRZonesdatafieldView" pc="268439597" symbol="getSubdivisions"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="21" lineNum="293" parent="globals/GraphicalHRZonesdatafieldView" pc="268439610" symbol="getSubdivisions"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="21" lineNum="294" parent="globals/GraphicalHRZonesdatafieldView" pc="268439623" symbol="getSubdivisions"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="21" lineNum="295" parent="globals/GraphicalHRZonesdatafieldView" pc="268439636" symbol="getSubdivisions"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="21" lineNum="296" parent="globals/GraphicalHRZonesdatafieldView" pc="268439640" symbol="getSubdivisions"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="21" lineNum="297" parent="globals/GraphicalHRZonesdatafieldView" pc="268439654" symbol="getSubdivisions"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="21" lineNum="298" parent="globals/GraphicalHRZonesdatafieldView" pc="268439663" symbol="getSubdivisions"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="21" lineNum="299" parent="globals/GraphicalHRZonesdatafieldView" pc="268439694" symbol="getSubdivisions"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="21" lineNum="300" parent="globals/GraphicalHRZonesdatafieldView" pc="268439703" symbol="getSubdivisions"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="21" lineNum="301" parent="globals/GraphicalHRZonesdatafieldView" pc="268439734" symbol="getSubdivisions"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="21" lineNum="302" parent="globals/GraphicalHRZonesdatafieldView" pc="268439743" symbol="getSubdivisions"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="21" lineNum="303" parent="globals/GraphicalHRZonesdatafieldView" pc="268439774" symbol="getSubdivisions"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="21" lineNum="304" parent="globals/GraphicalHRZonesdatafieldView" pc="268439783" symbol="getSubdivisions"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="21" lineNum="305" parent="globals/GraphicalHRZonesdatafieldView" pc="268439814" symbol="getSubdivisions"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="21" lineNum="307" parent="globals/GraphicalHRZonesdatafieldView" pc="268439823" symbol="getSubdivisions"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="22" lineNum="311" parent="globals/GraphicalHRZonesdatafieldView" pc="268439830" symbol="getPercentMaxHr"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="22" lineNum="312" parent="globals/GraphicalHRZonesdatafieldView" pc="268439834" symbol="getPercentMaxHr"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="23" lineNum="7" parent="globals/GraphicalHRZonesdatafieldView" pc="268439947" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\bill622\\GarminIQ\\graphical-hrzones-datafield\\source\\GraphicalHRZonesdatafieldView.mc" id="23" lineNum="7" parent="globals/GraphicalHRZonesdatafieldView" pc="268439947" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="25" lineNum="2" parent="globals/Rez/Drawables" pc="268439922" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="26" lineNum="6" parent="globals/Rez/Fonts" pc="268439924" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="27" lineNum="8" parent="globals/Rez/JsonData" pc="268439926" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="28" lineNum="10" parent="globals/Rez/Layouts" pc="268439925" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="29" lineNum="12" parent="globals/Rez/Menus" pc="268439923" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="30" lineNum="14" parent="globals/Rez/Strings" pc="268439927" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="31" lineNum="1" parent="globals/Rez" pc="268439903" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="31" lineNum="1" parent="globals/Rez" pc="268439903" symbol="&lt;init&gt;"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="22" method="true" symbol="writeZone"/>
+<entry id="10" object="true" symbol="GraphicalHRZonesdatafieldView"/>
+<entry field="true" id="16" symbol="currentHr"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="4" module="true" symbol="globals/Rez/Menus"/>
+<entry id="26" method="true" symbol="getPercentMaxHr"/>
+<entry field="true" id="20" symbol="indicatorY"/>
+<entry field="true" id="19" symbol="indicatorX"/>
+<entry field="true" id="17" symbol="hrZones"/>
+<entry id="8388647" module="true" symbol="UserProfile"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="14" symbol="AppName"/>
+<entry id="8" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="21" method="true" symbol="drawIndicator"/>
+<entry id="8388631" module="true" symbol="Activity"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry field="true" id="8389138" symbol="label"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry id="23" method="true" symbol="writePercent"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="9" object="true" symbol="GraphicalHRZonesdatafieldApp"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="12" module="true" symbol="Menus"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+<entry field="true" id="18" symbol="restingHr"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="8389137" method="true" symbol="compute"/>
+<entry id="8389131" method="true" symbol="setColor"/>
+<entry id="7" module="true" symbol="globals/Rez/JsonData"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="24" method="true" symbol="getIndicator"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry field="true" id="15" symbol="SCREEN_SIZE"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="8389130" symbol="mColor"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry field="true" id="13" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8390146" module="true" object="true" symbol="Background"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="8388747" symbol="currentHeartRate"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="11" module="true" symbol="Layouts"/>
+<entry id="25" method="true" symbol="getSubdivisions"/>
+<entry id="5" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="8388635" module="true" symbol="Application"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268435483" name="state" stackId="1" startPc="268435479"/>
+<entry arg="true" endPc="268435488" name="state" stackId="1" startPc="268435484"/>
+<entry endPc="268435624" name="dictionary" stackId="1" startPc="268435564"/>
+<entry arg="true" endPc="268435640" name="color" stackId="1" startPc="268435626"/>
+<entry arg="true" endPc="268435689" name="dc" stackId="1" startPc="268435641"/>
+<entry endPc="268435830" name="profile" stackId="1" startPc="268435694"/>
+<entry endPc="268435830" name="sport" stackId="2" startPc="268435694"/>
+<entry endPc="268436618" name="obscurityFlags" stackId="2" startPc="268435836"/>
+<entry arg="true" endPc="268436619" name="dc" stackId="1" startPc="268435832"/>
+<entry arg="true" endPc="268436683" name="info" stackId="1" startPc="268436620"/>
+<entry endPc="268436855" name="indicator" stackId="2" startPc="268436688"/>
+<entry endPc="268436855" name="percent" stackId="3" startPc="268436688"/>
+<entry arg="true" endPc="268436856" name="dc" stackId="1" startPc="268436684"/>
+<entry endPc="268438460" name="block2Color" stackId="6" startPc="268436861"/>
+<entry endPc="268438460" name="block1Color" stackId="5" startPc="268436861"/>
+<entry endPc="268438460" name="block4Color" stackId="8" startPc="268436861"/>
+<entry endPc="268438460" name="block3Color" stackId="7" startPc="268436861"/>
+<entry arg="true" endPc="268438461" name="indicator" stackId="2" startPc="268436857"/>
+<entry arg="true" endPc="268438461" name="dc" stackId="1" startPc="268436857"/>
+<entry arg="true" endPc="268438461" name="blockY" stackId="4" startPc="268436857"/>
+<entry arg="true" endPc="268438461" name="blockX" stackId="3" startPc="268436857"/>
+<entry endPc="268438658" name="text" stackId="5" startPc="268438466"/>
+<entry arg="true" endPc="268438659" name="indicator" stackId="2" startPc="268438462"/>
+<entry arg="true" endPc="268438659" name="dc" stackId="1" startPc="268438462"/>
+<entry arg="true" endPc="268438659" name="blockY" stackId="4" startPc="268438462"/>
+<entry arg="true" endPc="268438659" name="blockX" stackId="3" startPc="268438462"/>
+<entry endPc="268438927" name="bgColor" stackId="7" startPc="268438664"/>
+<entry endPc="268438927" name="fgColor" stackId="6" startPc="268438664"/>
+<entry endPc="268438927" name="text" stackId="5" startPc="268438664"/>
+<entry arg="true" endPc="268438928" name="dc" stackId="1" startPc="268438660"/>
+<entry arg="true" endPc="268438928" name="blockY" stackId="4" startPc="268438660"/>
+<entry arg="true" endPc="268438928" name="blockX" stackId="3" startPc="268438660"/>
+<entry arg="true" endPc="268438928" name="percent" stackId="2" startPc="268438660"/>
+<entry endPc="268439584" name="output" stackId="1" startPc="268438933"/>
+<entry endPc="268439828" name="step3" stackId="6" startPc="268439590"/>
+<entry endPc="268439828" name="step2" stackId="5" startPc="268439590"/>
+<entry endPc="268439828" name="step1" stackId="4" startPc="268439590"/>
+<entry endPc="268439828" name="hrZoneDiff" stackId="3" startPc="268439590"/>
+<entry endPc="268439828" name="step4" stackId="7" startPc="268439590"/>
+<entry arg="true" endPc="268439829" name="hrZoneMin" stackId="1" startPc="268439586"/>
+<entry arg="true" endPc="268439829" name="hrZoneMax" stackId="2" startPc="268439586"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="label"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/Background" offset="166" parentId="globals" symbolId="Background" type="class"/>
+<dataEntry label="globals/Rez" offset="237" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/Rez/Drawables" offset="316" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="355" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="386" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="417" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="448" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="479" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/GraphicalHRZonesdatafieldApp" offset="526" parentId="globals" symbolId="GraphicalHRZonesdatafieldApp" type="class"/>
+<dataEntry label="globals/GraphicalHRZonesdatafieldView" offset="597" parentId="globals" symbolId="GraphicalHRZonesdatafieldView" type="class"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435478" name="initialize" parent="GraphicalHRZonesdatafieldApp" startPc="268435456">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435483" name="onStart" parent="GraphicalHRZonesdatafieldApp" startPc="268435479">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435488" name="onStop" parent="GraphicalHRZonesdatafieldApp" startPc="268435484">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435530" name="getInitialView" parent="GraphicalHRZonesdatafieldApp" startPc="268435489">
+<documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268439946" name="&lt;init&gt;" parent="GraphicalHRZonesdatafieldApp" startPc="268439928">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435559" name="getApp" startPc="268435531">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435625" name="initialize" parent="Background" startPc="268435560">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435640" name="setColor" parent="Background" startPc="268435626">
+<param id="color"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435689" name="draw" parent="Background" startPc="268435641">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268439902" name="&lt;init&gt;" parent="Background" startPc="268439884">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435831" name="initialize" parent="GraphicalHRZonesdatafieldView" startPc="268435690">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436619" name="onLayout" parent="GraphicalHRZonesdatafieldView" startPc="268435832">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436683" name="compute" parent="GraphicalHRZonesdatafieldView" startPc="268436620">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436856" name="onUpdate" parent="GraphicalHRZonesdatafieldView" startPc="268436684">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438461" name="drawIndicator" parent="GraphicalHRZonesdatafieldView" startPc="268436857">
+<param id="dc"/>
+<param id="indicator"/>
+<param id="blockX"/>
+<param id="blockY"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438659" name="writeZone" parent="GraphicalHRZonesdatafieldView" startPc="268438462">
+<param id="dc"/>
+<param id="indicator"/>
+<param id="blockX"/>
+<param id="blockY"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438928" name="writePercent" parent="GraphicalHRZonesdatafieldView" startPc="268438660">
+<param id="dc"/>
+<param id="percent"/>
+<param id="blockX"/>
+<param id="blockY"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439585" name="getIndicator" parent="GraphicalHRZonesdatafieldView" startPc="268438929">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439829" name="getSubdivisions" parent="GraphicalHRZonesdatafieldView" startPc="268439586">
+<param id="hrZoneMin"/>
+<param id="hrZoneMax"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439882" name="getPercentMaxHr" parent="GraphicalHRZonesdatafieldView" startPc="268439830">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268439965" name="&lt;init&gt;" parent="GraphicalHRZonesdatafieldView" startPc="268439947">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268439922" name="&lt;init&gt;" parent="Drawables" startPc="268439922">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268439924" name="&lt;init&gt;" parent="Fonts" startPc="268439924">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268439926" name="&lt;init&gt;" parent="JsonData" startPc="268439926">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268439925" name="&lt;init&gt;" parent="Layouts" startPc="268439925">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268439923" name="&lt;init&gt;" parent="Menus" startPc="268439923">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268439927" name="&lt;init&gt;" parent="Strings" startPc="268439927">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268439921" name="&lt;init&gt;" parent="Rez" startPc="268439903">
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>
