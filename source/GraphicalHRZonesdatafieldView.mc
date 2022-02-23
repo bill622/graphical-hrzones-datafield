@@ -48,7 +48,7 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
         // 2 fields layout - TOP
         } else if (obscurityFlags == ( OBSCURE_LEFT | OBSCURE_RIGHT | OBSCURE_TOP )) {
             indicatorX = ( SCREEN_SIZE / 2 ) - 50;
-            indicatorY = ( SCREEN_SIZE / 6 ) - 10;
+            indicatorY = ( SCREEN_SIZE / 6 ) - 14;
         // 2 fields layout - BOTTOM
         } else if (obscurityFlags == ( OBSCURE_LEFT | OBSCURE_RIGHT | OBSCURE_BOTTOM )) {
             indicatorX = ( SCREEN_SIZE / 2 ) - 50;
@@ -101,6 +101,24 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
         drawIndicator( dc, indicator, indicatorX, indicatorY );
         writeZone( dc, indicator, indicatorX, indicatorY );
         writePercent( dc, percent, indicatorX, indicatorY );
+        /*drawPercent( dc, percent, indicatorX, indicatorY );*/
+    }
+
+    function drawPercent( dc, percent, indicatorX, indicatorY ) {
+        dc.setColor( Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT );
+        dc.drawRectangle( indicatorX, indicatorY + 25, 98, 20);
+        dc.setColor( Graphics.COLOR_BLUE, Graphics.COLOR_BLUE);
+        dc.fillRectangle( indicatorX, indicatorY + 25, 74, 20);
+        dc.setColor( Graphics.COLOR_GREEN, Graphics.COLOR_GREEN);
+        dc.fillRectangle( indicatorX + 74, indicatorY + 25, 6, 20);
+        dc.setColor( Graphics.COLOR_ORANGE, Graphics.COLOR_ORANGE);
+        dc.fillRectangle( indicatorX + 80, indicatorY + 25, 6, 20);
+        dc.setColor( Graphics.COLOR_RED, Graphics.COLOR_RED );
+        dc.fillRectangle( indicatorX + 86, indicatorY + 25, 12, 20);
+
+        dc.setColor( Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
+        dc.drawLine( indicatorX + ( ( 98 * percent ) / 100 ) , indicatorY + 25, indicatorX + ( ( 98 * percent ) / 100 ), indicatorY + 45);
+        dc.fillCircle( indicatorX + ( ( 98 * percent ) / 100 ), indicatorY + 45, 3 );
     }
 
     function drawIndicator( dc, indicator, blockX, blockY ) {
@@ -193,20 +211,20 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
 
         // Indicators Frame
         dc.setColor( Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT );
-        dc.drawRectangle( blockX, blockY, 23, 23 );
-        dc.drawRectangle( blockX + 25, blockY, 23, 23 );
-        dc.drawRectangle( blockX + 50, blockY, 23, 23 );
-        dc.drawRectangle( blockX + 75, blockY, 23, 23 );
+        dc.drawCircle( blockX + 11, blockY + 11, 11 );
+        dc.drawCircle( blockX + 36, blockY + 11, 11 );
+        dc.drawCircle( blockX + 61, blockY + 11, 11 );
+        dc.drawCircle( blockX + 86, blockY + 11, 11 );
 
         // Indicators
         dc.setColor( block1Color, block1Color );
-        dc.fillRectangle( blockX, blockY, 23, 23 );
+        dc.fillCircle( blockX + 11, blockY + 11, 11 );
         dc.setColor( block2Color, block2Color );
-        dc.fillRectangle( blockX + 25, blockY, 23, 23 );
+        dc.fillCircle( blockX + 36, blockY + 11, 11 );
         dc.setColor( block3Color, block3Color );
-        dc.fillRectangle( blockX + 50, blockY, 23, 23 );
+        dc.fillCircle( blockX + 61, blockY + 11, 11 );
         dc.setColor( block4Color, block4Color );
-        dc.fillRectangle( blockX + 75, blockY, 23, 23 );
+        dc.fillCircle( blockX + 86, blockY + 11, 11 );
     }
 
     function writeZone( dc, indicator, blockX, blockY ) {
@@ -222,7 +240,7 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
 
         dc.drawText( blockX,
                      blockY + 22,
-                     Graphics.FONT_TINY,
+                     Graphics.FONT_SYSTEM_SMALL,
                      text,
                      Graphics.TEXT_JUSTIFY_LEFT
                     );
@@ -239,18 +257,15 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
             fgColor = Graphics.COLOR_TRANSPARENT;
         } else {
             if( percent < 80 ) {
-                fgColor = Graphics.COLOR_BLUE;
-            } else if( percent >= 80 && percent < 87 ) {
                 fgColor = Graphics.COLOR_BLACK;
             } else {
                 fgColor = Graphics.COLOR_RED;
             }
-            
         }
         dc.setColor( fgColor, bgColor );
         dc.drawText( blockX + 100,
                      blockY + 22,
-                     Graphics.FONT_TINY,
+                     Graphics.FONT_SYSTEM_SMALL,
                      text,
                      Graphics.TEXT_JUSTIFY_RIGHT
                     );
