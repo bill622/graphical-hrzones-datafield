@@ -20,7 +20,6 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
         var sport = UserProfile.getCurrentSport();
         hrZones = UserProfile.getHeartRateZones(sport);
         restingHr = profile.restingHeartRate;
-
         SCREEN_SIZE = System.getDeviceSettings().screenWidth;
     }
 
@@ -40,31 +39,31 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
         // Bottom left quadrant so we'll use the bottom left layout
         } else if (obscurityFlags == (OBSCURE_BOTTOM | OBSCURE_LEFT)) {
             indicatorX = ( SCREEN_SIZE / 4 ) - 48;
-            indicatorY = 8;
+            indicatorY = ( SCREEN_SIZE / 6 ) - 10;
         // Bottom right quadrant so we'll use the bottom right layout
         } else if (obscurityFlags == (OBSCURE_BOTTOM | OBSCURE_RIGHT)) {
             indicatorX = ( SCREEN_SIZE / 4 ) - 50;
-            indicatorY = 8 ;
+            indicatorY = ( SCREEN_SIZE / 6 ) - 10 ;
         // 2 fields layout - TOP
         } else if (obscurityFlags == ( OBSCURE_LEFT | OBSCURE_RIGHT | OBSCURE_TOP )) {
             indicatorX = ( SCREEN_SIZE / 2 ) - 50;
-            indicatorY = ( SCREEN_SIZE / 6 ) - 5;
+            indicatorY = ( SCREEN_SIZE / 6 ) + 3;
         // 2 fields layout - BOTTOM
         } else if (obscurityFlags == ( OBSCURE_LEFT | OBSCURE_RIGHT | OBSCURE_BOTTOM )) {
             indicatorX = ( SCREEN_SIZE / 2 ) - 50;
-            indicatorY = ( SCREEN_SIZE / 6 ) - 15 ;
+            indicatorY = ( SCREEN_SIZE / 6 ) - 7 ;
         // 3 rows fields layout - MIDDLE
         } else if (obscurityFlags == ( OBSCURE_LEFT | OBSCURE_RIGHT )) {
             indicatorX = ( SCREEN_SIZE / 2 ) - 50;
-            indicatorY = ( SCREEN_SIZE / 6 ) - 10;
+            indicatorY = ( SCREEN_SIZE / 6 );
         // 4 fields in 3 rows layout - MIDDLE LEFT
         } else if (obscurityFlags == ( OBSCURE_LEFT )) {
             indicatorX = ( SCREEN_SIZE / 4 ) - 50;
-            indicatorY = ( SCREEN_SIZE / 6 ) - 10;
+            indicatorY = ( SCREEN_SIZE / 6 );
         // 4 fields in 3 rows layout - MIDDLE RIGHT
         } else if (obscurityFlags == ( OBSCURE_RIGHT )) {
             indicatorX = ( SCREEN_SIZE / 4 ) - 50;
-            indicatorY = ( SCREEN_SIZE / 6 ) - 10;
+            indicatorY = ( SCREEN_SIZE / 6 );
         // 1 field full screen
         } else {
             indicatorX = ( SCREEN_SIZE / 2) - 50;
@@ -98,6 +97,7 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
         dc.clear();
         
         drawIndicator( dc, indicator, indicatorX, indicatorY );
+        writePercent(dc, percent, indicatorX, indicatorY);
     }
 
     function drawIndicator( dc, indicator, blockX, blockY ) {
@@ -190,20 +190,20 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
 
         // Indicators Frame
         dc.setColor( Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT );
-        dc.drawCircle( blockX + 11, blockY + 11, 11 );
-        dc.drawCircle( blockX + 36, blockY + 11, 11 );
-        dc.drawCircle( blockX + 61, blockY + 11, 11 );
-        dc.drawCircle( blockX + 86, blockY + 11, 11 );
+        dc.drawCircle( blockX + 11, blockY + 12, 10 );
+        dc.drawCircle( blockX + 36, blockY + 12, 10 );
+        dc.drawCircle( blockX + 11, blockY - 12, 10 );
+        dc.drawCircle( blockX + 36, blockY - 12, 10 );
 
         // Indicators
         dc.setColor( block1Color, block1Color );
-        dc.fillCircle( blockX + 11, blockY + 11, 11 );
+        dc.fillCircle( blockX + 11, blockY + 12, 10 );
         dc.setColor( block2Color, block2Color );
-        dc.fillCircle( blockX + 36, blockY + 11, 11 );
+        dc.fillCircle( blockX + 36, blockY + 12, 10 );
         dc.setColor( block3Color, block3Color );
-        dc.fillCircle( blockX + 61, blockY + 11, 11 );
+        dc.fillCircle( blockX + 11, blockY - 12, 10 );
         dc.setColor( block4Color, block4Color );
-        dc.fillCircle( blockX + 86, blockY + 11, 11 );
+        dc.fillCircle( blockX + 36, blockY - 12, 10 );
     }
 
     function writePercent( dc, percent, blockX, blockY ) {
@@ -211,8 +211,17 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
         var fgColor = 0;
         var bgColor = Graphics.COLOR_TRANSPARENT;
         if( percent >= 15 ) {
-            text = percent.format( "%.0f") + " %";
+            text = percent.format( "%.0f");
         }
+
+        dc.setColor( fgColor, bgColor );
+        dc.drawText( blockX + 88,
+                     blockY - 5,
+                     Graphics.FONT_SYSTEM_MEDIUM,
+                     "%",
+                     Graphics.TEXT_JUSTIFY_LEFT
+                    );
+
         if( getBackgroundColor() == Graphics.COLOR_BLACK ){
             if( percent < 80 ) {
                 fgColor = Graphics.COLOR_WHITE;
@@ -227,12 +236,12 @@ class GraphicalHRZonesdatafieldView extends WatchUi.DataField {
             }
         }
         dc.setColor( fgColor, bgColor );
-        dc.drawText( blockX + 50,
-                     blockY,
-                     Graphics.FONT_SYSTEM_LARGE,
+        dc.drawText( blockX + 56,
+                     blockY - 33,
+                     Graphics.FONT_SYSTEM_NUMBER_MEDIUM,
                      text,
-                     Graphics.TEXT_JUSTIFY_CENTER
-                    );
+                     Graphics.TEXT_JUSTIFY_LEFT
+                    );        
     }
 
     function getIndicator() {
